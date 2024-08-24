@@ -6,7 +6,16 @@
     <title>Contact Me!</title>
     <style>
         html {
-            background-color: red;
+            background-color: ghostwhite;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            width: 50%;
+        }
+        textarea{
+            height: 100px;
         }
 </style>
 
@@ -14,7 +23,11 @@
 <body>
     <h1>Contact me by filling out the form below</h1>
     <form>
+        <label for ="name">Name:</label>
+        <input type="text" id="name"/>
 
+        <label for="message">Comment:</label>
+        <textarea id ="message"></textarea>
     </form>
 
 </body>
