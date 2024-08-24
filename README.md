@@ -1,1 +1,2 @@
-# Node_Basic_Site
+# Node Basic Site
+Creating my first static app using node.js
