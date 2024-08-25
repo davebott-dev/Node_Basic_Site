@@ -11,11 +11,24 @@
         form {
             display: flex;
             flex-direction: column;
+            align-items: center;
             gap: 15px;
             width: 50%;
         }
         textarea{
             height: 100px;
+        }
+        input,textarea {
+            width: 450px;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        button {
+            width: 100px;
         }
 </style>
 
@@ -28,6 +41,7 @@
 
         <label for="message">Comment:</label>
         <textarea id ="message"></textarea>
+        <button type="submit">Submit</button>
     </form>
 
 </body>
