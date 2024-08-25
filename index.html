@@ -5,11 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
     <style>
-        body {
+        html {
+            background: ghostwhite;
+            padding: 0px;
+            margin: 0px;
+        }
+        body,main {
+            padding: 0px;
+            margin: 0px;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
+        }
+        main {
+            margin-top: 100px;
         }
         ul {
             display: flex;
@@ -20,17 +30,39 @@
             text-decoration: none;
             list-style: none;
         }
+        a {
+            font-size: larger;
+            font-weight: bold;
+        }
+        nav {
+            background: lightblue;
+            box-shadow: 1px 3px 15px black;
+            width: 95.5%;
+            padding: 15px;
+            padding-right: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
     </style>
 
 </head>
 <body>
-    <h1> This is the main page of the website!</h1>
-    <p>This is some additional information regarding the topic of the website</p>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="contact-me">Contact Me</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1> This is the main page of the website!</h1>
+        <p>This is some additional information regarding the topic of the website</p>
+    
+    </main>
+    
+  
 
-    <ul>
-        <li><a href="about">about</a></li>
-        <li><a href="contact-me">contact me</a></li>
-    </ul>
 </body>
 
 </html>
